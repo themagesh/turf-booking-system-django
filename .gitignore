@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django specific
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Secret settings (e.g., environment variables, local settings)
+.env
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Migrations cache
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+**/migrations/*.py, !**/migrations/__init__.py
+
+# Node.js related (if using frontend in Django)
+node_modules/
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# MyPy type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+*.code-workspace
+.venv
