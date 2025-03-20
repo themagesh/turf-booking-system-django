@@ -4,3 +4,6 @@ from  .models import Turfregistration,Host_Tournament
 
 admin.site.register(Turfregistration)
 admin.site.register(Host_Tournament)
+
+
+#@#
