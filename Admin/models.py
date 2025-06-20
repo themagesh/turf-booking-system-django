@@ -1,6 +1,6 @@
 from email.policy import default
 from django.db import models
-from Admin.models import Role
+
 
 # Create your models here.
 
@@ -17,5 +17,3 @@ class Registration(models.Model):
 
 
 
-class SomeModel(models.Model):
-    role = models.ForeignKey(Role, on_delete=models.CASCADE)
