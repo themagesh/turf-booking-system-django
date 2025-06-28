@@ -12,9 +12,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # For Render deployment, set your actual domain here instead of '*'
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'turf-booking-system-7ol6.onrender.com',  # your Render URL
+    'turf-booking-system.onrender.com',  # your Render URL
 ]
 
 # Application definition
